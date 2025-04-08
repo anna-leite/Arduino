@@ -1,0 +1,20 @@
+Calcul des valeurs nécessaires à la résistance pour obtenir
+un courant de 10 milliampères à travers la LED.
+
+-> loi d'Ohm :
+    U = R x i
+
+    U : la tension (en volts, V)
+    R : la résitance (en ohms, Ω)
+    I : le courant (en ampères, A)
+
+
+pour trouver la résistance : R = (U/I)
+
+V_restant = V_alim - V_LED = 5 - 2 = 3
+
+I = 10 mA = 0.01 A
+
+R = (V_restant / I) = (3/0.01) = 300 Ω
+
+(orange = 3, noir = 0, brun = x10, or = tolérance + ou - 10%)
